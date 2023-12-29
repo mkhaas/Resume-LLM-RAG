@@ -4,7 +4,7 @@ This repository showcases the implementation of a Resume Question & Answer (Q&A)
 
 ## Overview
 
-Build an intelligent ResumeQ&A bot that leverages LangModel's RAG techniques for enhanced question answering. This project utilizes open-source tools, including PyPDFLoader for document loading, LangChain RecursiveCharacterTextSplitter for text splitting, Sentence-Transformer embeddings, and Chromadb for vector storage. The Flan T5 model available from HuggingfaceHub is employed for contextual question answering.
+Build an intelligent ResumeQ&A bot that leverages LangModel's RAG techniques for enhanced question answering. This project utilizes open-source tools, including PyPDFLoader for document loading, LangChain RecursiveCharacterTextSplitter for text splitting, HuggingFaceEmbedding embeddings, and Chromadb for vector storage. The Flan T5 model available from HuggingfaceHub is employed for contextual question answering.
 
 ## Features
 
@@ -12,7 +12,7 @@ Build an intelligent ResumeQ&A bot that leverages LangModel's RAG techniques for
   - Load and preprocess resume documents using PyPDFLoader and LangChain RecursiveCharacterTextSplitter.
 
 - **Embeddings and Vector Storage:**
-  - Generate embeddings using Sentence-Transformer.
+  - Generate embeddings using HuggingFaceEmbeddings model_name="all-MiniLM-L6-v2"
   - Create an in-memory Chromadb for efficient vector storage.
 
 - **Question Answering:**
