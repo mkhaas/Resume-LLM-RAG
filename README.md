@@ -33,7 +33,7 @@ For quick testing, a sample resume (`Langchain-Tester-Resume.pdf`) is included i
 
 ## Getting Started
 
-Follow the steps outlined in the code and README to set up the project and run the ResumeQ&A bot with ease.
+Follow the steps outlined in the Usage in Colab.
 
 ## License
 
