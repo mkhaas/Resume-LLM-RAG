@@ -1,6 +1,6 @@
 ## ResumeQ&A Bot with LLM Techniques
 
-This repository showcases the implementation of a Resume Question & Answer (Q&A) bot using the Retrieval-Augmented Generation (RAG) techniques of LangModel, along with free and open-source tools.
+This repository showcases the implementation of a Resume Question & Answer (Q&A) bot using the Retrieval-Augmented Generation (RAG) techniques of LLM, along with free and open-source tools.
 
 ### Overview
 
