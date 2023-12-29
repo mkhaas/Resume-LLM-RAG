@@ -1,2 +1,40 @@
-# Resume-LLM-RAG
- Resume Q&amp;A with free Open Source LLM RAG
+# ResumeQ&A Bot with LangModel RAG Techniques
+
+This repository showcases the implementation of a Resume Question & Answer (Q&A) bot using the Retrieval-Augmented Generation (RAG) techniques of LangModel, along with free and open-source tools.
+
+## Overview
+
+Build an intelligent ResumeQ&A bot that leverages LangModel's RAG techniques for enhanced question answering. This project utilizes open-source tools, including PyPDFLoader for document loading, LangChain RecursiveCharacterTextSplitter for text splitting, Sentence-Transformer embeddings, and Chromadb for vector storage. The Flan T5 model available from HuggingfaceHub is employed for contextual question answering.
+
+## Features
+
+- **Document Processing:**
+  - Load and preprocess resume documents using PyPDFLoader and LangChain RecursiveCharacterTextSplitter.
+
+- **Embeddings and Vector Storage:**
+  - Generate embeddings using Sentence-Transformer.
+  - Create an in-memory Chromadb for efficient vector storage.
+
+- **Question Answering:**
+  - Utilize the Flan T5 model from HuggingfaceHub for contextual question answering.
+  - Implement a LangChain RetrievalQA chain for retrieving relevant information from stored vectors.
+
+## Usage in Colab
+
+To run the ResumeQ&A bot in a Colab environment, follow these steps:
+
+1. Open the provided Colab notebook ResumeLLMRAGexample.ipynb
+2. Run the notebook cells sequentially.
+3. Provide your Hugging Face API key 
+
+## Sample Resume
+
+For quick testing, a sample resume (`Langchain-Tester-Resume.pdf`) is included in the repository. Feel free to use this sample to observe the bot's question-answering capabilities.
+
+## Getting Started
+
+Follow the steps outlined in the code and README to set up the project and run the ResumeQ&A bot with ease.
+
+## License
+
+This project is licensed under the MIT License.
