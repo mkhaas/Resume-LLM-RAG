@@ -23,9 +23,9 @@ Build an intelligent ResumeQ&A bot that leverages LangModel's RAG techniques for
 
 To run the ResumeQ&A bot in a Colab environment, follow these steps:
 
-1. Open the provided Colab notebook ResumeLLMRAGexample.ipynb
+1. Open the provided Colab notebook `ResumeLLMRAGexample.ipynb`.
 2. Run the notebook cells sequentially.
-3. Provide your Hugging Face API key 
+3. Provide your Hugging Face API key when prompted.
 
 ## Sample Resume
 
