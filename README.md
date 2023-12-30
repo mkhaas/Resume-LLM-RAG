@@ -16,7 +16,7 @@ Build an intelligent ResumeQ&A bot that leverages LLM's RAG techniques for enhan
   - Create an in-memory Chromadb for efficient vector storage.
 
 - **Question Answering:**
-  - Utilize the Flan T5 model from HuggingfaceHub for contextual question answering.
+  - Utilize the Flan T5 model from Hugging Face Hub for contextual question answering.
   - Implement a LangChain RetrievalQA chain for retrieving relevant information from stored vectors.
 
 ### Usage in Colab
